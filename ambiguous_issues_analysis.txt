@@ -1,0 +1,6 @@
+AMBIGUOUS ISSUES REQUIRING CLARIFICATION
+
+1. Timeline gaps in evidence chain of custody
+2. Conflicting metadata on digital recordings
+3. Unsigned or undated witness statements
+4. Missing original source files for exhibits

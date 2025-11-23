@@ -1,0 +1,15 @@
+CORE LEGAL ISSUE
+
+The central legal issue in R v Fraider concerns:
+
+1. Alleged disclosure violations by the Crown
+2. Potential Brady/Stinchcombe violations regarding withheld evidence
+3. Chain of custody concerns for audio/video evidence
+4. Authentication and integrity of digital recordings
+5. Procedural fairness in evidence handling
+
+The defense seeks:
+- Full disclosure of all Crown evidence
+- Forensic examination of original recordings
+- Stay of proceedings for abuse of process
+- Exclusion of improperly obtained evidence
