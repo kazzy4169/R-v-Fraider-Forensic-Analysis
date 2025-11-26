@@ -1,0 +1,56 @@
+{
+  "immediate_priorities": [
+    {
+      "task": "Deduplication & OCR",
+      "description": "Hash-based duplicate detection across 15,601 files + OCR for scanned documents",
+      "impact": "Reduce file count, enable full-text search",
+      "effort": "Medium"
+    },
+    {
+      "task": "Privilege/PII Detection",
+      "description": "Auto-flag solicitor-client communications and redact personal information",
+      "impact": "Compliance + risk mitigation",
+      "effort": "High"
+    },
+    {
+      "task": "Timeline Automation",
+      "description": "Extract dates/events from all documents, build interactive chronology",
+      "impact": "Case theory development",
+      "effort": "Medium"
+    }
+  ],
+  "high_value_automations": [
+    {
+      "task": "Witness-Document Cross-Reference",
+      "description": "Map which witnesses mentioned in which documents, flag contradictions",
+      "impact": "Impeachment opportunities",
+      "effort": "High"
+    },
+    {
+      "task": "Exhibit Schedule Generator",
+      "description": "Auto-generate court-ready exhibit schedules from file inventory",
+      "impact": "Filing efficiency",
+      "effort": "Low"
+    },
+    {
+      "task": "Disclosure Gap Analysis",
+      "description": "Compare received vs. requested disclosure, auto-draft deficiency notices",
+      "impact": "Completeness assurance",
+      "effort": "Medium"
+    }
+  ],
+  "integrations": [
+    {
+      "task": "Calendar Sync",
+      "description": "Push court deadlines to Google Calendar with alerts",
+      "impact": "Deadline management",
+      "effort": "Low"
+    },
+    {
+      "task": "CanLII Case Law Monitor",
+      "description": "Auto-track new decisions on relevant legal issues",
+      "impact": "Legal research currency",
+      "effort": "Medium"
+    }
+  ]
+}
