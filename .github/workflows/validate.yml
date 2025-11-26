@@ -1,0 +1,16 @@
+name: Lexus-Manus-Tasklit Workflow
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Validate Documentation
+        run: |
+          echo "Validating case documentation structure"
+          ls -R
