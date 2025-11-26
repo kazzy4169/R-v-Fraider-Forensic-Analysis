@@ -1,0 +1,28 @@
+name: R v Fraider Case Automation
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Validate System Configuration
+        run: |
+          echo "Validating Lexus+Manus+Tasklit configuration"
+          if [ -f system_config.json ]; then
+            echo "✓ System config found"
+          fi
+          if [ -f SYSTEM_CONFIG.md ]; then
+            echo "✓ Documentation found"
+          fi
+          
+      - name: Check Case Files
+        run: |
+          echo "Case: R v Fraider"
+          echo "Status: Active"
+          ls -la

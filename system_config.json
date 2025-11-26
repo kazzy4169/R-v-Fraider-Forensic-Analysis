@@ -1,0 +1,120 @@
+{
+  "system_name": "Lexus+Manus+Tasklit Integrated Case Management",
+  "version": "1.0",
+  "last_updated": "2025-11-26",
+  "core_principles": [
+    "Resolve all placeholders and variables before responding",
+    "Provide clear, actionable next steps with concrete deliverables",
+    "Highlight generated files immediately for user review",
+    "Maintain professional legal tone aligned with court standards",
+    "Structure outputs for maximum clarity and follow-up efficiency",
+    "Track task completion and provide status updates",
+    "Offer flexible options to empower user control",
+    "Summarize complex analysis with precise metrics",
+    "Avoid lengthy code dumps; focus on outcomes",
+    "Ensure brevity and precision in all communications"
+  ],
+  "lexis_capabilities": {
+    "document_analysis": [
+      "Automated summarization of affidavits and court filings",
+      "Case law research with AI-powered search",
+      "Legal citation verification and formatting",
+      "Headnote generation for precedent analysis"
+    ],
+    "case_management": [
+      "Evidence timeline construction",
+      "Fact pattern organization and linking",
+      "Witness statement cross-referencing",
+      "Exhibit tracking and cataloging"
+    ],
+    "drafting": [
+      "Court application preparation",
+      "Affidavit drafting with exhibit schedules",
+      "Notice of motion generation",
+      "Memorandum of law creation"
+    ]
+  },
+  "manus_capabilities": {
+    "automation": [
+      "Batch document processing and inventory",
+      "Multi-file cross-analysis and pattern detection",
+      "Automated file organization by type and date",
+      "Data extraction from PDFs and images"
+    ],
+    "analysis": [
+      "Visual timeline and relationship mapping",
+      "Statistical analysis of disclosure patterns",
+      "Financial model creation and validation",
+      "Evidence gap identification"
+    ],
+    "visualization": [
+      "Interactive case timelines",
+      "Document relationship graphs",
+      "Disclosure deficiency dashboards",
+      "Evidence strength heatmaps"
+    ]
+  },
+  "tasklit_capabilities": {
+    "workflow_automation": [
+      "Sequential document review pipelines",
+      "Automated disclosure deficiency tracking",
+      "Court deadline monitoring and alerts",
+      "Filing preparation checklists"
+    ],
+    "task_management": [
+      "Priority-based task sequencing",
+      "Dependency tracking between documents",
+      "Progress monitoring with status updates",
+      "Human-in-the-loop decision points"
+    ]
+  },
+  "r_v_fraider_workflows": {
+    "disclosure_review": {
+      "trigger": "New disclosure received",
+      "steps": [
+        "Inventory all files with metadata extraction",
+        "Cross-reference against existing evidence",
+        "Identify gaps and deficiencies",
+        "Generate deficiency notice draft",
+        "Update case timeline with new evidence"
+      ]
+    },
+    "court_filing_prep": {
+      "trigger": "Filing deadline approaching",
+      "steps": [
+        "Compile relevant evidence and exhibits",
+        "Draft affidavit with exhibit schedule",
+        "Generate supporting memorandum",
+        "Create notice of motion",
+        "Validate all citations and references"
+      ]
+    },
+    "evidence_analysis": {
+      "trigger": "Analysis request",
+      "steps": [
+        "Extract key facts from all documents",
+        "Build chronological timeline",
+        "Identify contradictions or gaps",
+        "Map relationships between evidence",
+        "Generate analysis summary with recommendations"
+      ]
+    }
+  },
+  "persistent_memory": {
+    "case_context": "R v Fraider - Criminal case with extensive disclosure",
+    "key_files": [
+      "Affidavit #1, #2, #3",
+      "Application Record",
+      "Exhibit Schedule",
+      "Financial Projections",
+      "Disclosure Summary",
+      "Case Inventory (15,601 files)"
+    ],
+    "active_issues": [
+      "Disclosure deficiencies",
+      "Evidence organization",
+      "Court filing preparation",
+      "Timeline construction"
+    ]
+  }
+}
