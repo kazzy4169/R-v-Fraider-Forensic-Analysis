@@ -1,0 +1,39 @@
+{
+  "metrics": {
+    "processing_speed": {
+      "target": 30,
+      "unit": "seconds",
+      "alert_threshold": 45
+    },
+    "summary_accuracy": {
+      "target": 95,
+      "unit": "percent",
+      "alert_threshold": 90
+    },
+    "deficiency_detection": {
+      "target": 98,
+      "unit": "percent",
+      "alert_threshold": 95
+    },
+    "citation_accuracy": {
+      "target": 100,
+      "unit": "percent",
+      "alert_threshold": 98
+    }
+  },
+  "human_review_triggers": [
+    "Court filing preparation complete",
+    "Privilege issue detected",
+    "Summary confidence < 90%",
+    "Citation validation failure",
+    "Cross-reference mismatch"
+  ],
+  "audit_log_fields": [
+    "timestamp",
+    "user",
+    "action",
+    "files_affected",
+    "commit_sha",
+    "validation_status"
+  ]
+}
