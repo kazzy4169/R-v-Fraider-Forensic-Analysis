@@ -1,0 +1,17 @@
+{
+  "case_name": "R v Fraider",
+  "documents": {
+    "affidavits": ["Affidavit #1", "Affidavit #2", "Affidavit #3"],
+    "applications": ["Application Record"],
+    "exhibits": ["Exhibit Schedule"],
+    "court_filings": ["Court Filings"],
+    "financial": ["Financial Projections Model"],
+    "disclosure": ["Disclosure Summary"]
+  },
+  "analysis": {
+    "google_drive": "50+ files analyzed",
+    "case_inventory": "Consolidated case data",
+    "status": "Active"
+  },
+  "last_updated": "2025-11-26T08:21:15.000000"
+}
